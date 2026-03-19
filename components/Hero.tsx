@@ -30,8 +30,9 @@ export function Hero() {
         </h1>
         <p className="max-w-xl text-base font-medium text-white/95 sm:text-lg">
           Rank curated surf regions by{" "}
-          <span className="whitespace-nowrap">round-trip cost</span> and our
-          Surf Score — built for flexible intermediate surfers.
+          <span className="whitespace-nowrap">round-trip cost</span> and Surf
+          Escape&apos;s proprietary Surf Score — for flexible intermediate
+          surfers who just want to get out there.
         </p>
       </div>
     </section>

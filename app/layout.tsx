@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Pacifico } from "next/font/google";
+import { SiteHeader } from "@/components/SiteHeader";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -19,8 +20,9 @@ const pacifico = Pacifico({
 });
 
 export const metadata: Metadata = {
-  title: "Surf Escape",
-  description: "Surf Escape",
+  title: "Surf Escape — Cheap weekend surf trips",
+  description:
+    "Rank curated surf destinations by indicative flight cost and Surf Score.",
 };
 
 export default function RootLayout({
@@ -33,7 +35,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="flex min-h-full flex-col font-sans">
+        <SiteHeader />
+        {children}
+      </body>
     </html>
   );
 }

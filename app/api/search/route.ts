@@ -60,11 +60,17 @@ export async function POST(req: Request) {
           lat: destination.lat,
           lon: destination.lon,
           date: departureDate,
+          destinationSlug: destination.slug,
+          departureDate,
+          returnDate,
         }),
         fetchWindSignal({
           lat: destination.lat,
           lon: destination.lon,
           date: departureDate,
+          destinationSlug: destination.slug,
+          departureDate,
+          returnDate,
         }),
       ]);
       const surf = computeSurfScore(swell, wind);

@@ -69,11 +69,11 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-[var(--surface)]">
+    <div className="min-h-screen bg-[var(--surface)] max-sm:bg-white">
       <Hero />
       <main
         id="main-content"
-        className="mx-auto max-w-6xl px-4 pb-20 pt-10 sm:px-6 sm:pt-12"
+        className="mx-auto max-w-6xl px-4 pb-20 pt-10 sm:px-6 sm:pt-12 max-sm:[--brand:#0d9488] max-sm:[--brand-ink:#0f172a] max-sm:[--foreground:#0f172a] max-sm:[--muted:#64748b]"
       >
         <section
           id="how-it-works"

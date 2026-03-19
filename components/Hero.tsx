@@ -29,10 +29,7 @@ export function Hero() {
           Surf Escape
         </h1>
         <p className="max-w-xl text-base font-medium text-white/95 sm:text-lg">
-          Rank curated surf regions by{" "}
-          <span className="whitespace-nowrap">round-trip cost</span> and Surf
-          Escape&apos;s proprietary Surf Score — for flexible intermediate
-          surfers who just want to get out there.
+          Find the cheapest surfable weekend trip in an instant.
         </p>
       </div>
     </section>
